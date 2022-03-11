@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int a, b, great;
+    double a, b, great;
     cout<<"Enter the first number:";
     cin>>a;
     cout<<"Enter the second number:";
