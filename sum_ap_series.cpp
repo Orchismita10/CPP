@@ -14,7 +14,7 @@ int main()
     cout<<"Enter the number of terms:";
     cin>>n;
     double sum = (n / 2.0) * (2.0 * a + (n - 1) * d);
-    cout<< "Sum of Given Ap Series: "<< sum;
+    cout<< "Sum of Given AP Series: "<< sum;
     
     return 0;
 }
