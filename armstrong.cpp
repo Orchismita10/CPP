@@ -9,7 +9,7 @@ int main()
     cout << "Enter the number to be checked:";
     cin >> n;
     int count=0, power, digit, r, sum=0;
-    int num = n;
+    int num = n, p=n;
     while( n!=0 )
     {
         n= n/10;
@@ -23,13 +23,13 @@ int main()
         sum = sum+r;
         num= num/10;
     }
-    if( sum == n )
+    if( sum == p )
     {
-        cout << n << " is an Armstrong number. ";
+        cout << p << " is an Armstrong number. ";
     }
     else
     {
-        cout << n << " is not an Armstrong number. ";
+        cout << p << " is not an Armstrong number. ";
     }
 
     return 0;
