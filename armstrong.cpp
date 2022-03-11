@@ -10,9 +10,9 @@ int main()
     cin >> n;
     int count=0, power, digit, r, sum=0;
     int num = n;
-    while( num!=0 )
+    while( n!=0 )
     {
-        num = num/10;
+        n= n/10;
         count++;
     }
     power=count;
