@@ -25,11 +25,11 @@ int main()
     }
     if( sum == n )
     {
-        cout << n << " is an Armstrong number.";
+        cout << n << " is an Armstrong number. ";
     }
     else
     {
-        cout << n << " is not an Armstrong number.";
+        cout << n << " is not an Armstrong number. ";
     }
 
     return 0;
