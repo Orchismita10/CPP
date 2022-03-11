@@ -8,7 +8,7 @@ int main()
     {
         if(num%i==0)
         {
-            cout << num << " is not a prime number.";
+            cout << num << " is not Prime.";
             temp=1;
             break;
         }
