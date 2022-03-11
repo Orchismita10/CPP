@@ -11,14 +11,17 @@ int main()
     cin>> end;
     cout<< " Palindrome numbers between "<< start << " and " << end << " are: ";
     int i;
-    for( i = start; i <= end; i++){
+    for( i = start; i <= end; i++)
+    {
         int num = i, rev=0;
-        do{
+        do
+        {
             int digit = num%10;
             rev = (rev*10)+digit;
             num/=10;
         }while(num != 0);
-        if(rev == i){
+        if(rev == i)
+        {
             cout<< i << endl;
         }
     }
