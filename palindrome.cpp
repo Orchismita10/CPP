@@ -8,15 +8,18 @@ int main()
     cout<<"Enter the number to be checked:";
     cin>>n;
     int num=n, digit, rev=0;
-    do{
+    do
+    {
         digit= num%10;
         rev = (rev*10)+digit;
         num = num/10;
     } while(num != 0);
-    if(rev ==n){
+    if(rev ==n)
+    {
         cout<< n << " is Paindrome.";
     }
-    else{
+    else
+    {
         cout<< n << " is not Palindrome.";
     }
 
