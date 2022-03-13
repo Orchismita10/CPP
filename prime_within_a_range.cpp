@@ -10,20 +10,24 @@ int main()
     cout<< "Enter the upper limit:";
     cin>> end;
     cout<< "Prime numbers between "<< start << " and " << end << " are: ";
-    int c = 0;
-    for (int i = start; i <= end; ++i)
+    int n=start;
+    int c=0;
+    while (n<=end)
     {
-        if (start % i == 0)
+        for(int i=2;i<=n-1;i++)
         {
-           c++;
+            if(n%i==0)
+            {
+                c++;
+            }
         }
+        if(c==0)
+        {
+            cout<<n<<" ";
+        }
+        c=0;
+        n++;
     }
-    if (c == 2)
-    {
-       cout << start;
-       ++start;
-    }
-    cout << endl;
     
     return 0;
 }
