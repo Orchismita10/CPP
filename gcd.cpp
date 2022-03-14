@@ -13,7 +13,7 @@ int main()
 		n2 = n1 % n2;
 		n1 = temp;
 	}
-  cout << "GCD = " << n1;
+     cout << "GCD = " << n1;
 
     return 0;
 }
